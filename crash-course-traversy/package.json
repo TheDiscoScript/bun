@@ -1,0 +1,25 @@
+{
+  "name": "crash-course-traversy",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts",
+    "dev": "bun --watch index.ts",
+    "hot": "bun --hot index.ts",
+    "build:github-api": "bun build ./src/index.ts --outfile=./dist/bundle.js",
+    "build:react-tsx": "bun build ./src/react-index.tsx --outfile=./dist/bundle-tsx.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
