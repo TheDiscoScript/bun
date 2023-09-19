@@ -5,9 +5,9 @@ Repository for testing Bun possibilities.
 ## Projects
 
 - crash-course-traversy: just coding along
+- documentation: just checking docs
 
 ## Goals
 
-- documentation run through
 - performance: testing against nodejs
 - BETH stack
